@@ -1,0 +1,5 @@
+Backend --
+1) Takımlar ==> 1- Marm99     2- Greenguard      ==> Aviyonik Elektronik Mekanik Kart Tasarımları Ekle Çıkar (Card)
+2) Sponsor Ekle (Sponsorların image'lerinin locasyonları önemli-sponsorlist kısmında image gösterebilmek için )
+3) Galeri ==> Video Fotoğraf (Amazonblob yada GoogleStorage)
+4) Üyeler
