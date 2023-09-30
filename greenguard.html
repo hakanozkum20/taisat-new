@@ -220,9 +220,11 @@
 
         <!-- banner -->
                         <div class="row mil-mb-30">
-                            <div class="col-xl-12 mil-mb-30">
+                            <div class="col"></div>
+                            <div class="col-xl-8 mil-mb-30">
                                 <img src="img/photo/Untitled3.png" alt="blog" class="mil-post-image">
                             </div>
+                            <div class="col"></div>
                         </div>
         <!-- banner end -->
         <!-- Aviyonik portfolio -->
@@ -247,7 +249,7 @@
                     </div>
                 </div>
 
-                <div class="swiper-container mil-works-slider mil-mb-90">
+                <div class="swiper mil-works-slider mil-mb-90 mySwiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
 
@@ -406,7 +408,7 @@
                     </div>
                 </div>
 
-                <div class="swiper-container mil-works-slider mil-mb-90">
+                <div class="swiper mil-works-slider mil-mb-90 mySwiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
 
@@ -516,7 +518,7 @@
                     </div>
                 </div>
 
-                <div class="swiper-container mil-works-slider2 mil-mb-90">
+                <div class="swiper mil-works-slider2 mil-mb-90 mySwiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
 
@@ -788,6 +790,16 @@
     <script src="../../bslthms-advanced-btns/assets/script.js"></script>
     <!-- bslthemes.com buttons assets end -->
 
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 3,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+        });
+      </script>
 </body>
 
 </html>

@@ -34,7 +34,7 @@
             <div class="mil-top-panel">
                 <!-- mil-top-panel-transparent -->
                 <div class="container">
-                    <a href="home.html" class="mil-logo" style="width: 140px"></a>
+                    <a href="index.html" class="mil-logo" style="width: 140px"></a>
                     <div class="mil-navigation">
                         <nav>
                             <ul>
@@ -53,7 +53,7 @@
                                         <li><a href="greenguard.html">TAISAT Greenguard</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="portfolio.html">Galeri</a></li>
+                                <li><a href="gallery.html">Galeri</a></li>
                                 <li>
                                     <a href="sponsorships.html">Sponsorluk</a>
                                 </li>
@@ -101,7 +101,7 @@
         <section class="mil-contact mil-p-120-0">
             <div class="container">
                 <div class="row justify-content-between">
-                    <div class="col-lg-8 col-xl-8 mil-mb-120">
+                    <div class="col-lg-6 col-xl-6 mil-mb-120">
 
                         <form action="admin/iletişim.php" method="POST">
 
@@ -205,8 +205,10 @@
                             </div>
 
                         </form>
-
+                        
                     </div>
+                    <div class="container col-lg-6"><iframe src="https://www.google.com/maps/d/u/3/embed?mid=1qu3Ie6PEt9AtLtzuCOZ4JtWq43o7ibg&ehbc=2E312F" width="640" height="480"></iframe></div>
+                    
                 </div>
             </div>
         </section>
@@ -214,8 +216,8 @@
 
         <!-- map -->
         <div>
-            <div class="mil-map-frame">
-				            <div class="container"><iframe src="https://www.google.com/maps/d/u/3/embed?mid=1qu3Ie6PEt9AtLtzuCOZ4JtWq43o7ibg&ehbc=2E312F" width="640" height="480"></iframe></div>
+            <!-- ! bura değistirildi enes <div class="mil-map-frame"> -->
+				            <!-- <div class="container"><iframe src="https://www.google.com/maps/d/u/3/embed?mid=1qu3Ie6PEt9AtLtzuCOZ4JtWq43o7ibg&ehbc=2E312F" width="640" height="480"></iframe></div> -->
         </div>
         <!-- map end -->
        <!-- Sponsorship Partners -->	
@@ -345,7 +347,7 @@
 	</script>
 
 	<!-- bslthemes.com buttons html begin -->
-    <div class="bsl-popup" data-theme="itsulu" data-category="html">
+    <!-- <div class="bsl-popup" data-theme="itsulu" data-category="html">
         <div class="bsl-popup__buttons"></div>
         <div class="bsl-popup__content bsl-popup__content-related">
         <div class="bsl-popup__menu"></div>
@@ -357,12 +359,12 @@
         </div>
         </div>
         <div class="bsl-popup__content bsl-popup__content-help"></div>
-    </div>
+    </div> -->
     <!-- bslthemes.com buttons html end -->
 
 	<!-- bslthemes.com buttons assets begin -->
-	<link rel="stylesheet" href="../../bslthms-advanced-btns/assets/style.css">
-    <script src="../../bslthms-advanced-btns/assets/script.js"></script>
+	<!-- <link rel="stylesheet" href="../../bslthms-advanced-btns/assets/style.css">
+    <script src="../../bslthms-advanced-btns/assets/script.js"></script> -->
     <!-- bslthemes.com buttons assets end -->
 
 </body>

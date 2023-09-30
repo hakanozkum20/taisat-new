@@ -101,9 +101,9 @@
         <section class="mil-contact mil-p-120-0">
             <div class="container">
                 <div class="row justify-content-between">
-                    <div class="col-lg-8 col-xl-8 mil-mb-120">
+                    <div class="col-lg-6 col-xl-6 mil-mb-120">
 
-                        <form>
+                        <form action="admin/iletişim.php" method="POST">
 
                             <h4 class="mil-mb-60"><span class="mil-accent">01.</span> Bize Kendinden Bahset</h4>
 
@@ -112,7 +112,7 @@
 
                                     <div class="mil-input-frame mil-dark-input mil-mb-30">
                                         <label class="mil-h6 mil-dark"><span>İsim</span></label>
-                                        <input type="text" placeholder="">
+                                        <input type="text" placeholder="" name="isim">
                                     </div>
 
                                 </div>
@@ -120,7 +120,7 @@
 
                                     <div class="mil-input-frame mil-dark-input mil-mb-30">
                                         <label class="mil-h6"><span>Soyisim</span></label>
-                                        <input type="text" placeholder="">
+                                        <input type="text" placeholder="" name="soyisim">
                                     </div>
 
                                 </div>
@@ -128,7 +128,7 @@
 
                                     <div class="mil-input-frame mil-dark-input mil-mb-30">
                                         <label class="mil-h6"><span>E-mail Adres</span></label>
-                                        <input type="email" placeholder="">
+                                        <input type="email" placeholder="" name="email">
                                     </div>
 
                                 </div>
@@ -136,7 +136,7 @@
 
                                     <div class="mil-input-frame mil-dark-input mil-mb-30">
                                         <label class="mil-h6"><span>Telefon No</span></label>
-                                        <input type="number" placeholder="">
+                                        <input type="number" placeholder="" name="tel">
                                     </div>
 
                                 </div>
@@ -145,7 +145,7 @@
 
                                     <div class="mil-input-frame mil-dark-input mil-mb-30">
                                         <label class="mil-h6 mil-dark"><span>Şirket</span></label>
-                                        <input type="text" placeholder="">
+                                        <input type="text" placeholder="" name="sirket">
                                     </div>
 
                                 </div>
@@ -153,7 +153,7 @@
 
                                     <div class="mil-input-frame mil-dark-input mil-mb-30">
                                         <label class="mil-h6 mil-dark"><span>Rol</span></label>
-                                        <input type="text" placeholder="">
+                                        <input type="text" placeholder="" name="rol">
                                     </div>
 
                                 </div>
@@ -166,7 +166,7 @@
 
                                     <div class="mil-input-frame mil-dark-input mil-mb-30">
                                         <label class="mil-h6 mil-dark"><span>Konu</span></label>
-                                        <input type="text" placeholder="Pozisyon Başvurusu, Sponsorluk vb.">
+                                        <input type="text" placeholder="Pozisyon Başvurusu, Sponsorluk vb." name="konu">
                                     </div>
 
                                 </div>
@@ -180,7 +180,7 @@
 
                                     <div class="mil-input-frame mil-dark-input mil-mb-30">
                                         <label class="mil-h6"><span></span></label>
-                                        <textarea placeholder="" class="mil-shortened">Mesajınız</textarea>
+                                        <textarea placeholder="" class="mil-shortened" name="mesaj">Mesajınız</textarea>
                                     </div>
 
                                 </div>
@@ -190,7 +190,7 @@
                                         <i class="fas fa-paperclip"></i>
                                         <label class="mil-custom-file-input">
                                             <span>Dosyanızı Ekleyin</span>
-                                            <input type="file" id="mil-file-input">
+                                            <input type="file" id="mil-file-input" name="dosya">
                                         </label>
                                         <p class="mil-text-sm mil-light-soft">20MB ve üstü</p>
                                     </div>
@@ -198,15 +198,17 @@
 
                                 <div class="col-lg-12">
 
-                                    <button class="mil-button mil-border mil-fw"><span>Şimdi Gönder</span></button>
+                                    <button class="mil-button mil-border mil-fw" type="submit"><span>Şimdi Gönder</span></button>
 
                                 </div>
 
                             </div>
 
                         </form>
-
+                        
                     </div>
+                    <div class="container col-lg-6"><iframe src="https://www.google.com/maps/d/u/3/embed?mid=1qu3Ie6PEt9AtLtzuCOZ4JtWq43o7ibg&ehbc=2E312F" width="640" height="480"></iframe></div>
+                    
                 </div>
             </div>
         </section>
@@ -215,7 +217,7 @@
         <!-- map -->
         <div>
             <!-- ! bura değistirildi enes <div class="mil-map-frame"> -->
-				            <div class="container"><iframe src="https://www.google.com/maps/d/u/3/embed?mid=1qu3Ie6PEt9AtLtzuCOZ4JtWq43o7ibg&ehbc=2E312F" width="640" height="480"></iframe></div>
+				            <!-- <div class="container"><iframe src="https://www.google.com/maps/d/u/3/embed?mid=1qu3Ie6PEt9AtLtzuCOZ4JtWq43o7ibg&ehbc=2E312F" width="640" height="480"></iframe></div> -->
         </div>
         <!-- map end -->
        <!-- Sponsorship Partners -->	
@@ -345,7 +347,7 @@
 	</script>
 
 	<!-- bslthemes.com buttons html begin -->
-    <div class="bsl-popup" data-theme="itsulu" data-category="html">
+    <!-- <div class="bsl-popup" data-theme="itsulu" data-category="html">
         <div class="bsl-popup__buttons"></div>
         <div class="bsl-popup__content bsl-popup__content-related">
         <div class="bsl-popup__menu"></div>
@@ -357,12 +359,12 @@
         </div>
         </div>
         <div class="bsl-popup__content bsl-popup__content-help"></div>
-    </div>
+    </div> -->
     <!-- bslthemes.com buttons html end -->
 
 	<!-- bslthemes.com buttons assets begin -->
-	<link rel="stylesheet" href="../../bslthms-advanced-btns/assets/style.css">
-    <script src="../../bslthms-advanced-btns/assets/script.js"></script>
+	<!-- <link rel="stylesheet" href="../../bslthms-advanced-btns/assets/style.css">
+    <script src="../../bslthms-advanced-btns/assets/script.js"></script> -->
     <!-- bslthemes.com buttons assets end -->
 
 </body>
